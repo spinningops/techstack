@@ -1,2 +1,6 @@
+# cache directories
 .vscode
+.gradle
 .venv
+# folders
+build
