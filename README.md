@@ -1,6 +1,6 @@
 # Spinningops Techstack
 
-This repo is for developers on how to build and integrate open-source software with their applications.
+This repo is for developers on how to build and integrate open-source software with your applications.
 
 ## Topics
 
