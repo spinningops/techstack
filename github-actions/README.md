@@ -49,3 +49,15 @@ Audience
 ## Create Web Identity to assume role
 
 IAM > create role > select Web identity > choose the identity provider
+
+## Add IAM policy to assume role
+
+create or add IAM policy the assume role for the workflow
+
+## Update worklows .yaml
+
+update the new role and role name in the .yaml file
+
+## Check new releases
+
+link [HERE](https://github.com/aws-actions/configure-aws-credentials/releases)
