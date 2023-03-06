@@ -1,4 +1,4 @@
-# GitHub Actions
+# GitHub Actions w/ AWS
 
 Instructions to add github actions for a repository
 
