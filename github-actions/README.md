@@ -61,3 +61,7 @@ update the new role and role name in the .yaml file
 ## Check new releases
 
 link [HERE](https://github.com/aws-actions/configure-aws-credentials/releases)
+
+## AWS Actions
+
+link [HERE](https://github.com/aws-actions)
