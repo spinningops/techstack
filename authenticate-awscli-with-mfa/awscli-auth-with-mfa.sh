@@ -24,7 +24,7 @@ read ACCOUNT_ID
 echo "Please add your IAM username"
 read MFA_USER
 
-echo "Please add your 6-digit code from google authenticator"
+echo "Please add your 6-digit code from your authenticator app"
 read MFA_TOKEN
 
 TOKEN=$(aws sts get-session-token --duration-seconds 3600 --serial-number arn:aws:iam::$ACCOUNT_ID:mfa/$MFA_USER --token-code $MFA_TOKEN)
