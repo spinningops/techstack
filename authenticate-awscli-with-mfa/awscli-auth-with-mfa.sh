@@ -19,7 +19,7 @@ export AWS_PROFILE=default
 
 
 echo "Hi, Please add your AWS account id"
-read ACCOUNT_ID
+read -s ACCOUNT_ID
 
 echo "Please add your IAM username"
 read MFA_USER
