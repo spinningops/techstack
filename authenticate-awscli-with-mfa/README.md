@@ -31,7 +31,7 @@ use the script to switch aws profiles
 
 **required packages**
 
-```config
+```bash
 awscli
 jq
 ```
