@@ -26,3 +26,16 @@ use the script to switch aws profiles
 ```sh
 . ./awscli-switch-aws-profile.sh
 ```
+
+## awscli authentication requirements using linux
+
+**required packages**
+
+```config
+awscli
+jq
+```
+
+## tests
+
+those scripts tested on debian
