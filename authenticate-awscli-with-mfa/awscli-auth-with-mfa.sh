@@ -45,5 +45,8 @@ aws configure set aws_session_token $TEMP_TOKEN --profile mfa
 # cleanup
 rm temp-token.json
 
+# export mfa profile
+export AWS_PROFILE=mfa
+
 echo "Access token is ready! If you need to switch AWS_PROFILE use the script awscli-switch-aws-profile.sh"
 echo "default profile is "$AWS_PROFILE
